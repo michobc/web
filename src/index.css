@@ -9,6 +9,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: #ffffff;
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-image: url(.//assets/images/bgimg.jpg);
   overflow: hidden;
   display: block;
 }
