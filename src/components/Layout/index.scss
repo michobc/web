@@ -30,7 +30,7 @@
   min-height: 566px;
   position: absolute;
   opacity: 0;
-  top: 5%;
+  top: 3%;
   margin: 0 auto;
   z-index: 1;
   transform-style: preserve-3d;
@@ -42,7 +42,7 @@
 .contact-page{
   .text-zone{
     position: absolute;
-    left: 120px;
+    left: 140px;
     top: 50%;
     transform: translateY(-50%);
     width: 40%;
@@ -57,12 +57,23 @@
       font-weight: 400;
       margin-top: 0;
       position: relative;
-      margin-bottom: 40px;
+      margin-bottom: 20px;
+      left: 10px;
+    }
+
+    h2{
+      font-size: 17px;
+      font-family: 'Coolvetica';
+      color: rgb(0, 0, 0);
+      font-weight: 500;
+      margin-top: 0;
+      position: relative;
+      margin-bottom: 10px;
       left: 10px;
     }
 
     p{
-      font-size: 13px;
+      font-size: 15px;
       color: rgb(0, 0, 0);
       font-family: sans-serif;
       font-weight: 500;
@@ -77,6 +88,21 @@
       }
       &:nth-of-type(3){
         animation-delay: 1.3s; 
+      }
+      &:nth-of-type(4){
+        animation-delay: 1.4s; 
+      }
+      &:nth-of-type(5){
+        animation-delay: 1.5s; 
+      }
+      &:nth-of-type(6){
+        animation-delay: 1.6s; 
+      }
+      &:nth-of-type(7){
+        animation-delay: 1.7s; 
+      }
+      &:nth-of-type(8){
+        animation-delay: 1.8s; 
       }
     }
   }
