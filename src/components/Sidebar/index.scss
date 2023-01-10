@@ -9,23 +9,24 @@
     min-height: 500px;
 
     .flat-button{
-        color: #ffffff;
-        background-color: #333;
-        font-size: 13px;
-        font-weight: 500;
-        letter-spacing: 1px;
-        font-family: sans-serif;
-        text-decoration: none;
-        padding: 8px 6.7px;
-        border: 1px solid #ffd700;
-        margin-top: 5px;
-        text-align: center;
-        animation: fadeIn 0.5s 0.8s backwards;
-        white-space: nowrap;
+      color: #ffffff;
+      background-color: #333;
+      font-size: 13px;
+      font-weight: 500;
+      letter-spacing: 1px;
+      font-family: sans-serif;
+      text-decoration: none;
+      padding: 8px 6.4px;
+      border: 1px solid #ffd700;
+      margin-top: 5px;
+      text-align: center;
+      animation: fadeIn 0.5s 0.8s backwards;
+      white-space: nowrap;
+      width: 100%;
 
-        &:hover{
-            background-color: #ffd700;
-        }
+      &:hover{
+        background-color: #ffd700;
+      }
     }
 
     .logo {
@@ -164,12 +165,13 @@
         letter-spacing: 1px;
         font-family: sans-serif;
         text-decoration: none;
-        padding: 8px 8px;
+        padding: 8px 7.6px;
         border: 1px solid #ffd700;
         margin-top: 5px;
         text-align: center;
         animation: fadeIn 0.5s 0.8s backwards;
         white-space: nowrap;
+        width: 100%;
         &:hover{
             background-color: #ffd700;
         }
