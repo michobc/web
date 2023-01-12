@@ -15,8 +15,17 @@ const Home = () => {
             setLetterClass('text-animate-hover')
         }, 4000)
     }, []);
-    
 
+    const countEl = document.getElementById('count');
+    updateVisitCount();
+    function updateVisitCount() {
+        fetch('https://api.countapi.xyz/update/myweb/67cc4b66-c7c8-4624-a7ca-81dc6a9c9319/?amount=0.25')
+        .then(res => res.json())
+        .then(res => {
+            countEl.innerHTML = res.value;
+        })
+    }
+    
     return (
         <>
             <div className="container home-page">
@@ -34,6 +43,10 @@ const Home = () => {
                     </h1>
                     <h2>Computer & Communication Engineering Student at ESIB</h2>
                     <Link to="/contact" className="flat-button">Contact Me</Link>
+                </div>
+                <div className='viewscss'>
+                    <h2 id="count" ></h2>
+                    <p>Views</p>
                 </div>
             </div>
         <Loader type='ball-grid-pulse' />
